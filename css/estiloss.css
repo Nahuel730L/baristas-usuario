@@ -1,0 +1,121 @@
+/* estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    flex: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* estilos del encabezado */
+ header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    flex: auto;
+}
+
+.logo {
+    margin: 0;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* estilos del formulario de inicio de sesión */
+.container-formulario-login {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.espacio{
+    padding: 220px;
+  }
+
+.push-footer {
+    height: 100px; /* Puedes ajustar la altura según tus necesidades */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.send-button {
+    text-align: center;
+}
+
+.send-button input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-button input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

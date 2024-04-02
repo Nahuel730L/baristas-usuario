@@ -1,0 +1,131 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #333; /* Cambia el color según tu diseño */
+    color: white; /* Cambia el color del texto según tu diseño */
+    padding: 20px 0; /* Añade espaciado interno */
+}
+
+.container-index {
+    max-width: 1200px; /* Limita el ancho del contenido */
+    margin: 20% auto; /* Centra el contenido horizontalmente */
+    padding: 50px 1px; /* Añade espaciado interno */
+}
+
+.logo a {
+    color: white; /* Cambia el color del enlace según tu diseño */
+    text-decoration: none;
+}
+
+.menu-toggle {
+    display: none; /* Oculta el botón del menú, ajusta según tu necesidad */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: white; /* Cambia el color del enlace según tu diseño */
+    text-decoration: none;
+}
+
+
+/* estilos del formulario de inicio de sesión */
+.container-formulario-login {
+  max-width: 400px;
+  margin: 355px auto;;
+  padding: 29px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 50px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.send-button {
+  text-align: center;
+}
+
+
+
+.send-button input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+.user-welcome {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.user-welcome h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-welcome p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* estilos del pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+footer p {
+  margin: 20px 0;
+  padding: 50px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}

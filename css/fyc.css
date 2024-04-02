@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ---------------------------------- trabaja con nosotros / SUMATE ------------------------------- */
+
+ .sombreado{
+  background-color: black;
+}
+
+.main-sumate {
+    position: relative; /* Asegura que la posición relativa se aplique al contenido interno */
+    width: 100%;
+    height: 100%;
+}
+
+.background-image {
+  background-image: url('../img/gallery1.jpg'); /* Ruta de tu imagen */
+    background-position: center;
+    height: 90vh; /* O ajusta la altura según sea necesario */
+    display: flex;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+}
+
+
+.image-texto {
+    position: absolute;
+    background-position: center;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: #343a40bd;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+
+.image-texto h1 {
+    font-size: 3em; /* Tamaño del título */
+    color: #fff;
+    margin-bottom: 30px; /* Espaciado inferior */
+}
+
+.image-texto p {
+    font-size: 1.5em; /* Tamaño del texto */
+}
+
+.scrollToForm{
+  text-align: center;
+}
+
+.h2 .h2{
+      font-size: calc(2.785rem + .1vw);
+}
+/* -------------------------------- FORMULARIO -------------------------------------------------- */
+
+.sombreado {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* offsetX offsetY blurRadius color */
+  color: white; /* Ajusta el color del texto */
+}
+
+.form-container {
+  max-width: 400px;
+  padding: 40px;
+  margin: 5 auto;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.42rem;
+
+}
+
+.form-group {
+  margin-bottom: 20px; 
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  list-style: none;
+  margin-top: 25px;
+}
+/* -------------------------------- aviso de envio ---------------------------------------- */
+
+.form {
+    padding: 50px 20px;
+    margin: calc(25% + 100px);
+    margin-top: 70px;
+    padding-top: 28px;
+    margin-bottom: 30px
+}
+
+.ok {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
+}
+.bad {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff
+}
+
+/* -------------------------------- mocca-helado -------------------------------------------------- */
+
+.background-image-mocca {
+    background-image: url('../img/moca-category.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px; /* Ajusta según sea necesario */
+}
+
+.image-texto-mocca {
+    position: relative; /* Cambia de absolute a relative */
+    max-width: 800px;
+    margin: 0 auto; /* Centra horizontalmente */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+#introduccion h2, #origen-evolucion h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#introduccion p, #origen-evolucion p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#Referencias h2{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+        color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* -------------------------------- expreso -------------------------------------------------- */
+
+.background-image-expreso {
+    background-image: url('../img/expreso-category.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px; /* Ajusta según sea necesario */
+}
+
+.image-texto-expreso  {
+    position: relative; /* Cambia de absolute a relative */
+    max-width: 800px;
+    margin: 0 auto; /* Centra horizontalmente */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+#introduccion h2, #origen-evolucion h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#introduccion p, #origen-evolucion p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* -------------------------------- politica de privacidad -------------------------------------------------- */
+
+
+ html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.policy-container {
+    background-image: url('ruta-de-tu-imagen');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policy-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+.policy-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.policy-content h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.policy-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* -------------------------------- terminos y condiciones -------------------------------------------------- */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.terms-container {
+    background-image: url('ruta-de-tu-imagen');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terms-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+.terms-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.terms-content h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.terms-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/*---------------------tienda-------------------------*/
+
+.main-tienda {
+    background-image: url("../img/blog-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px; /* Ajusta el relleno según sea necesario */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.section-tienda {
+    flex: 0 1 calc(25% - 20px); /* Ajusta el ancho de cada sección */
+    margin: 10px;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.article-tienda img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/*------------------------footer----------
