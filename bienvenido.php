@@ -43,7 +43,7 @@ if (!empty($sessData['userLoggedIn']) && !empty($sessData['userID'])) {
 
     <header>
         <div class="container">
-            <h1 class="logo"><a href=".\index.php">Baristas</a></h1>
+            <h1 class="logo"><a href=".\index.html">Baristas</a></h1>
             <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
             <nav>
                 <ul id="menu" class="menu">

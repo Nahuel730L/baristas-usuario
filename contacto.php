@@ -41,7 +41,7 @@
 
           <div class="container-logo">
             <i class="fa-solid fa-mug-hot"></i>
-            <h1 class="logo"><a href="../index.php">Baristas</a></h1>
+            <h1 class="logo"><a href="../index.html">Baristas</a></h1>
           </div>
 
           <div class="container-user">
@@ -61,7 +61,7 @@
         <nav class="navbar container">
           <i class="fa-solid fa-bars"></i>
           <ul class="menu">
-            <li><a href="./index.php">Inicio</a></li>
+            <li><a href="./index.html">Inicio</a></li>
             <li><a href="./pages/mocca-helado.html">Moca Helado</a></li>
             <li><a href="./pages/expreso.html">Expreso</a></li>
             <li><a href="./pages/capuchino.html">Capuchino</a></li>
